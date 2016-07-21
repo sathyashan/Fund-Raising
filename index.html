@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Donation</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainContent">
+        <div class="msgBoxWrapper">
+            <div class="msgBox">
+                <span class="remAmt"></span>
+                <span> still needed for this project</span>
+            </div>
+        </div>
+        <div class="donationWrapper">
+            <div class="progressBarWrapper">
+                <div class="progressBar" id="progressIndicator">
+                </div>
+            </div>
+            <div class="donationBox">
+                <p>
+                    <span id="remDays">Only 3 days remanining</span> to fund this project
+                </p>
+                <p id="donationMessage">
+                    Join the <span id="numDonors"></span> other donors who have already supported this project. Every dollar
+                    helps.
+                </p>
+                <p id="donationMessage0">
+                </p>
+                <div class="inputs">
+                    <div class="inputContainer">
+                        <span style="margin-right: 5px; width: 24px">$</span>
+                        <input type="number" id="donationAmount" />
+                    </div>
+                    <div class="btnDonate">
+                        Give Now
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="btnSave">Save for Later</div>
+            <div class="btnTellFriends">Tell your Friends</div>
+        </div>  
+    </div>
+    <div id="toastMessenger"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

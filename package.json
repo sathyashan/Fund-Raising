@@ -1,0 +1,15 @@
+{
+  "name": "donationtemplate",
+  "version": "1.0.0",
+  "description": "Donation (Fund) collection template",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Sathya Moorthy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
