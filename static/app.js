@@ -74,10 +74,7 @@ $(".btnTellFriends").click(function () {
         method: 'share',
         href: 'https://donationtemplate.herokuapp.com/',
         quote: 'Yay, I donated!'
-    }, function (response) { 
-        if(response.post_id){
-           setToastMessage("Your message shared in facebook"); } 
-        });
+    }, function (response) {  });
 });
 $(".btnSave").click(function(){
     setToastMessage("Saved");
