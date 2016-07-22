@@ -72,7 +72,7 @@ $(".btnDonate").click(function(){
 $(".btnTellFriends").click(function () {
     FB.ui({
         method: 'share',
-        href: 'https://loktra.com',
+        href: 'https://donationtemplate.herokuapp.com/',
         quote: 'Yay, I donated!'
     }, function (response) { });
 });
